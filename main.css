@@ -182,37 +182,85 @@ img{
 	z-index: -2;
 	display:none;
 }
+.hungry-hippie{
+	-webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  transition: all .3s ease;
+}
 .hungry-hippie:hover {
 	font-weight: 800;
 	color:white;
+	font-size:60px;
+}
+.adrenaline{
+	-webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  transition: all .3s ease;
 }
 .adrenaline:hover {
 	font-weight: 800;
 	color:white;
+	font-size:60px;
+}
+.now{
+	-webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  transition: all .3s ease;
 }
 .now:hover {
 	font-weight: 800;
 	color:white;
+	font-size:60px;
+}
+.photo{
+	-webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  transition: all .3s ease;
 }
 .photo:hover {
 	font-weight: 800;
 	color:white;
+	font-size:60px;
+}
+.debate{
+	-webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  transition: all .3s ease;
 }
 .debate:hover {
 	font-weight: 800;
 	color:white;
+	font-size:60px;
+}
+.posters{
+	-webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  transition: all .3s ease;
 }
 .posters:hover {
 	font-weight: 800;
 	color:white;
+	font-size:60px;
+}
+.songwave{
+	-webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  transition: all .3s ease;
 }
 .songwave:hover {
 	font-weight: 800;
 	color:white;
+	font-size:60px;
+}
+.print{
+	-webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  transition: all .3s ease;
 }
 .print:hover {
 	font-weight: 800;
 	color:white;
+	font-size:60px;
 }
 .hungry-hippie:hover + .hungry-hippie-img {
 	display: block;	
