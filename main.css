@@ -1,0 +1,239 @@
+body{
+	background-color: #151517;
+	overflow:hidden;
+	text-decoration:none; 
+}
+.title h1{
+	z-index:15;
+	font-size: 80px;
+	font-family: 'Oswald', sans-serif;
+	text-transform:uppercase;
+	text-align: center;
+	color:ghostwhite;
+	top: 0;
+	line-height:0.01;
+	position:fixed;
+	width:100%; 
+	}
+.artist {
+	font-family: 'Poppins', sans-serif;
+	font-weight:0;
+	font-size: 16px;
+	position: fixed; 
+	top: 0;
+	left: 0;
+	padding: 15px;
+	align-items: left;
+	color: ghostwhite;
+	z-index:12;
+}
+.about {
+	font-family: 'Poppins', sans-serif;
+	font-weight:0;
+	font-size: 16px;
+	position: fixed; 
+	top: 0;
+	right: 0;
+	padding: 15px;
+	align-items: left;
+	color: ghostwhite;
+	z-index:12;
+}
+.socials {
+	font-family: 'Poppins', sans-serif;
+	font-weight:0;
+	font-size: 16px;
+	position: fixed; 
+	bottom: 0;
+	left: 0;
+	padding: 15px;
+	align-items: left;
+	color: ghostwhite;
+	z-index:12;
+}
+.year {
+	font-family: 'Poppins', sans-serif;
+	font-weight:0;
+	font-size: 16px;
+	position: fixed; 
+	bottom: 0;
+	right: 0;
+	padding: 15px;
+	align-items: left;
+	color: ghostwhite;
+	z-index:12;
+}
+.project-list{
+	font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+	text-transform:uppercase;
+	text-align: center;
+	color:ghostwhite;
+	line-height:0.75;
+	padding-top: 4%;
+	z-index:10;
+	top:20%;
+	position:fixed; 
+	width: 100%;
+	margin: auto; 
+	padding: 10px; 
+}
+.hungry-hippie:{
+	text-decoration:none; 
+}
+img{
+	object-fit:contain;
+	margin:auto;
+	width:auto;
+}
+.hungry-hippie-img{
+	margin: 0;
+	padding: 0; 
+	display: grid; 
+	z-index:1;
+	object-fit:cover; 
+	position:fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	display:none;
+}
+.songwave-img{
+	margin: 0;
+	padding: 0; 
+	display: grid; 
+	z-index:1;
+	object-fit:cover; 
+	position:fixed;
+	top: 0;
+	left: 0;
+	z-index: -2;
+	display:none;
+}
+.debate-img{
+	margin: 0;
+	padding: 0; 
+	display: grid; 
+	z-index:1;
+	object-fit:cover; 
+	position:fixed;
+	top: 0;
+	left: 0;
+	z-index: -2;
+	display:none;
+}
+.adrenaline-img{
+	margin: 0;
+	padding: 0; 
+	display: grid; 
+	z-index:1;
+	object-fit:cover; 
+	position:fixed;
+	top: 0;
+	left: 0;
+	z-index: -2;
+	display:none;
+}
+.series-img{
+	margin: 0;
+	padding: 0; 
+	display: grid; 
+	z-index:1;
+	object-fit:cover; 
+	position:fixed;
+	top: 0;
+	left: 0;
+	z-index: -2;
+	display:none;
+}
+.now-img{
+	margin: 0;
+	padding: 0; 
+	display: grid; 
+	z-index:1;
+	object-fit:cover; 
+	position:fixed;
+	top: 0;
+	left: 0;
+	z-index: -2;
+	display:none;
+}
+.photo-img{
+	margin: 0;
+	padding: 0; 
+	display: grid; 
+	z-index:1;
+	object-fit:cover; 
+	position:fixed;
+	top: 0;
+	left: 0;
+	z-index: -2;
+	display:none;
+}
+.print-img{
+	margin: 0;
+	padding: 0; 
+	display: grid; 
+	z-index:1;
+	object-fit:cover; 
+	position:fixed;
+	top: 0;
+	left: 0;
+	z-index: -2;
+	display:none;
+}
+.hungry-hippie:hover {
+	font-weight: 800;
+	color:white;
+}
+.adrenaline:hover {
+	font-weight: 800;
+	color:white;
+}
+.now:hover {
+	font-weight: 800;
+	color:white;
+}
+.photo:hover {
+	font-weight: 800;
+	color:white;
+}
+.debate:hover {
+	font-weight: 800;
+	color:white;
+}
+.posters:hover {
+	font-weight: 800;
+	color:white;
+}
+.songwave:hover {
+	font-weight: 800;
+	color:white;
+}
+.print:hover {
+	font-weight: 800;
+	color:white;
+}
+.hungry-hippie:hover + .hungry-hippie-img {
+	display: block;	
+}
+.debate:hover + .debate-img {
+	display: block;	
+}
+.adrenaline:hover + .adrenaline-img {
+	display: block;	
+}
+.posters:hover + .series-img {
+	display: block;	
+}
+.now:hover + .now-img {
+	display: block;	
+}
+.photo:hover + .photo-img {
+	display: block;	
+}
+.print:hover + .print-img {
+	display: block;	
+}
+
+

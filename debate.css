@@ -1,0 +1,113 @@
+body{
+	background-color: #151517;
+	text-decoration:none; 
+}
+.title h1{
+	font-size: 80px;
+	font-family: 'Oswald', sans-serif;
+	text-transform:uppercase;
+	text-align: center;
+	color:ghostwhite;
+	top: 0;
+	line-height:0.01;
+	z-index:13;
+	
+	}
+.artist {
+	text-decoration:none; 
+	font-family: 'Poppins', sans-serif;
+	font-weight:0;
+	font-size: 16px;
+	position: fixed; 
+	top: 0;
+	left: 0;
+	padding: 15px;
+	align-items: left;
+	color: ghostwhite;
+	z-index:12;
+}
+.about {
+	font-family: 'Poppins', sans-serif;
+	font-weight:0;
+	font-size: 16px;
+	position: fixed; 
+	top: 0;
+	right: 0;
+	padding: 15px;
+	align-items: left;
+	color: ghostwhite;
+	z-index:12; 
+}
+.socials {
+	font-family: 'Poppins', sans-serif;
+	font-weight:0;
+	font-size: 16px;
+	position: fixed; 
+	bottom: 0;
+	left: 0;
+	padding: 15px;
+	align-items: left;
+	color: ghostwhite;
+	z-index:12;
+}
+.year {
+	font-family: 'Poppins', sans-serif;
+	font-weight:0;
+	font-size: 16px;
+	position: fixed; 
+	bottom: 0;
+	right: 0;
+	padding: 15px;
+	align-items: left;
+	color: ghostwhite;
+	z-index:12;
+}
+.description{
+	font-size: 18px;
+	font-family: 'Oswald', sans-serif;
+	color:ghostwhite;
+	padding-top:30px;
+	padding-left:130px;
+	padding-right:130px;;
+}
+img{
+	height: 100%;
+	width:100%;
+	object-fit:contain;
+}
+.image{
+width:100%;
+height:400px;
+}
+.description-2{
+	font-size: 18px;
+	font-family: 'Oswald', sans-serif;
+	color:ghostwhite;
+	padding-top:30px;
+	padding-bottom:50px;
+	padding-left:130px;
+	padding-right:130px;
+}
+.logo-icons{
+	font-weight: 900;
+	color:darkgrey;
+}
+.logo-img{
+	width:100%;
+height:450px;
+	padding-bottom:50px;
+}
+.icon-img{
+	width:100%;
+height:350px;
+	padding-bottom:100px;
+}
+.view{
+	text-align:center; 
+	font-size: 18px;
+	font-family: 'Oswald', sans-serif;
+	color:ghostwhite;
+	padding-bottom:100px;
+	font-weight:900;
+}
+
