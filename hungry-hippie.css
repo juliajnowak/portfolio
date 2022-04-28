@@ -78,7 +78,7 @@ img{
 }
 .image{
 width:100%;
-height:500px;
+height:600px;
 }
 .description-2{
 	font-size: 18px;
@@ -95,7 +95,7 @@ height:500px;
 }
 .logo-img{
 	width:100%;
-height:250px;
+height:350px;
 	padding-bottom:50px;
 }
 .icon-img{
@@ -126,7 +126,7 @@ height:230px;
 }
 .sticker-img{
 	width:100%;
-	height:400px;
+	height:500px;
 	padding-bottom:20px;
 }
 .description-4{
@@ -141,12 +141,12 @@ height:230px;
 }
 .business-img{
 	width:100%;
-	height:400px;
+	height:500px;
 	padding-bottom:20px;
 }
 .packaging-img{
 	width:100%;
-	height:400px;
+	height:500px;
 	padding-bottom:100px;
 }
 
